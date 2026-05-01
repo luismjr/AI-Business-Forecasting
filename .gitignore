@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MacOS
+.DS_Store
+
+# Local environment variables
+.env.*
+!.env.example
+
+# Data
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+
+# Trained models
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# ML experiment outputs
+mlruns/
+wandb/
+runs/
+checkpoints/
+
+# Flask local files
+instance/
+*.sqlite
+*.sqlite3
+
+# Frontend, if you add React later
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# IDEs
+.vscode/
+.idea/
