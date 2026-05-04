@@ -224,13 +224,6 @@ __marimo__/
 .env.*
 !.env.example
 
-# Data
-data/
-datasets/
-*.csv
-*.xlsx
-*.parquet
-
 # Trained models
 models/
 *.pkl
