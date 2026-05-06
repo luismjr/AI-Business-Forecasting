@@ -253,3 +253,6 @@ frontend/dist/
 # IDEs
 .vscode/
 .idea/
+
+# Claude Code working directory
+.claude/
